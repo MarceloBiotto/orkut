@@ -9,3 +9,28 @@
     width: 72px;
     
 }
+
+.lista-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    
+
+}
+.lista-menu__titulo{
+    background-color: rgb(48, 196, 255);
+    border-radius: 4px;
+    padding: 4px;
+}
+.lista-menu__item{
+    background-color: rgb(48, 196, 255);
+    border-radius: 4px;
+    padding: 4px;
+}
+.lista-titulo__link{
+    text-decoration: none;
+}
+
+.lista-menu__link{
+    text-decoration: none;
+}

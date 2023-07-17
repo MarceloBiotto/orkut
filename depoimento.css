@@ -1,0 +1,48 @@
+.perfil{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.foto__casal{
+    width: 80px;
+    margin: 8px 8px;
+   
+}
+.status{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+.stats{
+    font-size: 8px;
+    color: black;
+ 
+}
+.sexo{
+    font-size: 8px;
+    color: rgb(150, 147, 144);
+}
+.pais{
+    font-size: 8px;
+    color: rgb(150, 147, 144);
+}
+.depoimento__imagem{
+    width: 8px;
+    padding: 0.8px 1px;
+    margin: 0.2px;
+    text-align: center;
+}
+
+.menu__depoimento{
+    text-decoration: none;
+    padding-left: 12px;
+    font-size: 8px;
+    color: rgb(48, 196, 255);
+}
+.menu__depoimento-item{
+    text-decoration: none;
+    padding-left: 12px;
+    font-size: 8px;
+    color: rgb(48, 196, 255);
+}
