@@ -1,0 +1,11 @@
+.container__banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(190, 244, 248);
+    padding: 16px 8px;
+}
+
+.logo__header{
+    width: 72px;
+    
+}

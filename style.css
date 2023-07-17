@@ -1,9 +1,1 @@
-.container__banner{
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo__header{
-    width: 62px;
-    
-}
+@import url(header.css);
