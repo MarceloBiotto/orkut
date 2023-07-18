@@ -3,7 +3,7 @@
     justify-content: space-between;
     flex-direction: column;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 8px 44px 8px 8px;
     width: 520px;
     height: 300px;
 }
