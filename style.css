@@ -5,8 +5,9 @@
 
 .body{
     max-width: 960px;
+    
 }
 .central{
     display: flex;
-   
+    background: rgb(200, 244, 248);
 }

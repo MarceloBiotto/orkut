@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
 }
 .menu__aba-central{
     display: flex;

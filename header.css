@@ -1,7 +1,7 @@
 .container__banner{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(190, 244, 248);
+    background-color: rgb(200, 244, 248);
     padding: 16px 8px;
 }
 
@@ -34,6 +34,7 @@
 .lista-titulo__link{
     text-decoration: none;
     color: rgb(236, 236, 236);
+    
 }
 
 .lista-menu__link{
