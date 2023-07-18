@@ -21,12 +21,14 @@
     background-color: rgb(48, 196, 255);
     border-radius: 4px;
     padding: 4px;
+    display: block;
 
 }
 .lista-menu__item{
     background-color: rgb(48, 196, 255);
     border-radius: 4px;
     padding: 4px;
+    display: block;
 
 }
 .lista-titulo__link{
@@ -37,4 +39,13 @@
 .lista-menu__link{
     text-decoration: none;
     color: rgb(236, 236, 236);
+}
+
+
+
+@media(max-width: 750px){
+    .lista-menu__titulo,.lista-menu__item{
+        display: none;
+    }
+    
 }
