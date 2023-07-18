@@ -50,3 +50,11 @@ gap: 8px;
         width: 100%;
         justify-content: center;
     }
+
+    @media(max-width: 750px){
+        .aba-central{
+            width: 50%;
+            height: 50%;
+        }
+        
+    }
