@@ -37,24 +37,31 @@ gap: 8px;
     margin-bottom: 174px;
     align-items: center;
     text-align: center;
+  
 }
+.recados__aba-central, .fotos__aba-central, .fotos-casal__aba-central, .videos__aba-central{
+    display: block;
+  }
 .imagens-stats__aba-central{
-    width: 44px;
+    width: 48px;
     display: flex;
     justify-content: space-between;
-    gap: 8px;
+    gap: 4px;
+    margin: 0 8px;
+   
 }
 
 
-    .imagens-stats__aba-central {
-        width: 100%;
-        justify-content: center;
-    }
 
     @media(max-width: 750px){
         .aba-central{
             width: 50%;
-            height: 50%;
+            height: 70%;
         }
+
+        .recados__aba-central, .fotos__aba-central, .fotos-casal__aba-central, .videos__aba-central{
+        display: none;
+      }
+        
         
     }
