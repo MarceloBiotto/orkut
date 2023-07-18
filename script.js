@@ -7,7 +7,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
       message: message
     };
   
-    emailjs.send('service_r4m5zvg', '__ejs-test-mail-service__', templateParams)
+    emailjs.send('service_r4m5zvg', 'template_1jsonvw', templateParams)
       .then(function(response) {
         console.log("Email enviado com sucesso!", response.status, response.text);
         // Exiba uma mensagem de sucesso para o usuário
