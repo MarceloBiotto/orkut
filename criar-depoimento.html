@@ -16,6 +16,12 @@
         <link rel="stylesheet" href="style.css" />
     
       <title>Orkut</title>
+      <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('Vv5jqgx_K3lKM8iU_')
+</script>
     
     </head>
     <body>
@@ -82,10 +88,16 @@
     
             <section class="aba-central">
               <h1 class="titulo__aba-central" >Escreva o depoimento</h1>
-              <form id="myForm">
-                <textarea id="message" placeholder="Digite sua mensagem"></textarea>
-                <button type="submit" id="sendButton">Enviar</button>
-                <button type="button" id="clearButton">Limpar</button>
+              <form id="form">
+                <div class="field">
+                  <label for="from_name">seu nome</label>
+                  <input type="text" name="from_name" id="from_name">
+                </div>
+                <div class="field">
+                  <label for="message">depoimento</label>
+                  <input type="text" name="message" id="message">
+                </div>
+                <input type="submit" id="button" value="Enviar depoimento" >
               </form>
               
              
@@ -122,7 +134,6 @@
     
       <script src="script.js"></script>
  
-    
-    <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+   
 </body>
 </html>

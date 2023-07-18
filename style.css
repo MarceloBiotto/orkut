@@ -3,6 +3,7 @@
 @import url(depoimento.css);
 @import url(aba-central.css);
 @import url(comunidades-amigos.css);
+@import url(criar-depoimento.css);
 
 :root{
 
@@ -18,5 +19,5 @@
 .central{
     height: 100%;
     display: flex;
-    background-color: rgb(200, 244, 248);
+    background-color: var(--cor-principal);
 }
