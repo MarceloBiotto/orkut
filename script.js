@@ -1,5 +1,5 @@
 (function() {
-    emailjs.init('lee.am@live.com');
+    emailjs.init('Vv5jqgx_K3lKM8iU_');
   })();
   
   document.getElementById("myForm").addEventListener("submit", function(event) {
