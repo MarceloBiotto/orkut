@@ -1,0 +1,25 @@
+.aba-central{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.menu__aba-central{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 4px;
+     
+    
+}
+.icones__aba-central{
+display: flex;
+justify-content: space-between;
+    
+}
+
+.imagens__aba-central{
+    display: flex;
+    justify-content: space-between;
+    width: 16px;
+    margin-bottom: 174px;
+}
