@@ -5,10 +5,11 @@
 @import url(comunidades-amigos.css);
 
 .body{
-    max-width: 960px;
+    height: 100%;
     
 }
 .central{
+    height: 100%;
     display: flex;
-    background: rgb(200, 244, 248);
+    background-color: rgb(200, 244, 248);
 }
