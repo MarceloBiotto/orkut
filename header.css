@@ -47,5 +47,9 @@
     .lista-menu__titulo,.lista-menu__item{
         display: none;
     }
+
+    .busca{
+        width: 52px;
+    }
     
 }
