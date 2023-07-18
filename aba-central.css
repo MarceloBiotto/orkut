@@ -4,6 +4,7 @@
     flex-direction: column;
     background-color: white;
     border-radius: 8px;
+    width: 520px;
 }
 .titulo__aba-central{
     text-align: left;
