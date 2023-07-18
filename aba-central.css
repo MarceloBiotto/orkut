@@ -44,3 +44,9 @@ gap: 8px;
     justify-content: space-between;
     gap: 8px;
 }
+
+
+    .imagens-stats__aba-central {
+        width: 100%;
+        justify-content: center;
+    }
