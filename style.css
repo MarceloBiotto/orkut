@@ -2,6 +2,7 @@
 @import url(reset.css);
 @import url(depoimento.css);
 @import url(aba-central.css);
+@import url(comunidades-amigos.css);
 
 .body{
     max-width: 960px;

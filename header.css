@@ -3,6 +3,8 @@
     justify-content: space-between;
     background-color: rgb(200, 244, 248);
     padding: 16px 8px;
+    max-width: 900px;
+    
 }
 
 .logo__header{
@@ -14,6 +16,8 @@
     display: flex;
     justify-content: space-between;
     gap: 8px;
+    text-align: center;
+    align-items: center;
    
 
 }
@@ -29,6 +33,7 @@
     border-radius: 4px;
     padding: 4px;
     display: block;
+   
 
 }
 .lista-titulo__link{
@@ -40,6 +45,11 @@
 .lista-menu__link{
     text-decoration: none;
     color: rgb(236, 236, 236);
+}
+
+.busca{
+    padding-right: 44px;
+    text-align: right;
 }
 
 
