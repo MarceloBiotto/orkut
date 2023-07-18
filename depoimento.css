@@ -29,7 +29,45 @@
 }
 .depoimento__imagem{
     width: 8px;
-    padding: 0.8px 1px;
+    padding-right: 1px;
+    margin: 0.2px;
+    text-align: center;
+}
+.perfil__imagem{
+    width: 8px;
+   padding-right: 1px;
+    margin: 0.2px;
+    text-align: center;
+
+}
+.recado__imagem{
+    width: 8px;
+    padding-right: 1px;
+    margin: 0.2px;
+    text-align: center;
+}
+.foto__imagem{
+    width: 8px;
+    padding-right: 1px;
+    margin: 0.2px;
+    text-align: center;
+}
+.video__imagem{
+    width: 8px;
+    padding-right: 1px;
+    margin: 0.2px;
+    text-align: center;
+}
+
+.atualizacoes__imagem{
+    width: 8px;
+    padding-right: 1px;
+    margin: 0.2px;
+    text-align: center;
+}
+.eventos__imagem{
+    width: 8px;
+    padding-right: 1px;
     margin: 0.2px;
     text-align: center;
 }
