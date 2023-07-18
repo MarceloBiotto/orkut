@@ -5,10 +5,21 @@
         background-color: white;
         border-radius: 8px;
         margin-left: 8px;
-        width: 220px;
+        width: 320px;
     }
 .amigos__lista{
     display: flex;
     justify-content: space-between;
     gap: 4px;
+    
+}
+.amigo{
+    text-align: center;
+}
+.amigos__imagens{
+    width: 74px;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    
 }

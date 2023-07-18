@@ -8,9 +8,106 @@
 
 </head>
 <body>
-    <p>teste
-<input type="text">depoimento
-    </p>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+    
+      <title>Orkut</title>
+    
+    </head>
+    <body>
+    <header class="header">
+            <div class="container__banner">
+              <img
+                src="Logo_ORKUT.svg"
+                alt="logo Orkut"
+                class="logo__header"
+              />
+              <ul class="lista-menu">
+                  <li class="lista-menu__titulo">
+                    <a href="#" class="lista-titulo__link">Home</a>
+                  </li>
+    
+                  <li class="lista-menu__item">
+                      <a href="#" class="lista-menu__link">Profile</a>
+                  </li>
+                  <li class="lista-menu__item">
+                      <a href="#" class="lista-menu__link">Scraps</a>
+                  </li>
+                  <li class="lista-menu__item">
+                      <a href="#" class="lista-menu__link">Comunidades</a>
+                  </li>
+              
+              </ul>
+      
+              <div id="search-bar" class="busca">
+                <input
+                  id="search-input"
+                  type="text"
+                  placeholder="Digite sua busca"
+                />
+                <button id="search-button" class="pesquisa">Pesquisar</button>
+              </div>
+            </div>
+          </header>
+    
+    <section class="central">
+            <section class="perfil">
+                <img src="./imagens/casal.PNG" alt="casal" class="foto__casal">
+                <ul class="status">
+                  <li class="stats">Disponivel</li>
+                  <li class="sexo">masculino/feminino</li>
+                  <li class="pais">Brasil</li>
+    
+              </ul>
+              <ul class="depoimento">
+                <li class="depoimento__fazer"><a href="criar-depoimento.html" class="menu__depoimento"><img src="./imagens/sol.png" alt="sol-depoimento" class="depoimento__imagem">criar depoimento</a></li>
+                <li class="perfil"><a href="#"class="menu__depoimento-item"><img src="./imagens/perfil.PNG" alt="perfil" class="perfil__imagem">perfil</a></li>
+                <li class="scraps"><a href="#"class="menu__depoimento-item"><img src="./imagens/recados.png" alt="recados" class="recado__imagem">scraps</a></li>
+                <li class="fotos"><a href="#"class="menu__depoimento-item"><img src="./imagens/foto.png" alt="fotos" class="foto__imagem">fotos</a></li>
+                <li class="videos"><a href="#"class="menu__depoimento-item"><img src="./imagens/video.png" alt="video" class="video__imagem">videos</a></li>
+                <li class="depoimentos"><a href="#"class="menu__depoimento-item"><img src="./imagens/sol.png" alt="sol-depoimento" class="depoimento__imagem">depoimentos</a></li>
+                <li class="atualizacoes"><a href="#"class="menu__depoimento-item"><img src="./imagens/atualizacoes.png" alt="atualizacoes" class="atualizacoes__imagem">atualizacoes</a></li>
+                <li class="eventos"><a href="#"class="menu__depoimento-item"><img src="./imagens/calendario.png" alt="calendario" class="eventos__imagem">eventos</a></li>
+                
+              </ul>
+    
+    
+    
+    
+            </section>
+    
+            <section class="aba-central">
+              <h1 class="titulo__aba-central">Escreva o depoimento</h1>
+              <input type="text" name="depoimento" id="">
+             
+    
+            </section>
+    
+        
+            <section class="amigos-comunidades">
+                <h2>meus amigos</h2>
+                <ul class="amigos__lista">
+                <li class="amigo"><img src="./imagens/amy.png" alt="amy" class="amigos__imagens">Amy</li>
+                <li class="amigo"><img src="./imagens/dog.png" alt="dog" class="amigos__imagens">Dog</li>
+                <li class="amigo"><img src="./imagens/max.png" alt="max" class="amigos__imagens">Max</li>
+                
+    
+          </ul>
+          <h2>minhas comunidades</h2>
+          <ul class="comunidades__lista">
+            <p>Odeio acordar cedo </p>
+          </ul>
+        </section>
+      </section>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
+    
     
 </body>
 </html>

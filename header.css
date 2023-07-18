@@ -1,11 +1,11 @@
 .header{
-    background-color: rgb(200, 244, 248);
+    background-color: var(--cor-principal);
 }
 
 .container__banner{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(200, 244, 248);
+    background-color: var(--cor-principal);
     padding: 16px 8px;
     max-width: 900px;
     
@@ -26,14 +26,14 @@
 
 }
 .lista-menu__titulo{
-    background-color: rgb(48, 196, 255);
+    background-color: var(--cor-secundaria);
     border-radius: 4px;
     padding: 4px;
     display: block;
 
 }
 .lista-menu__item{
-    background-color: rgb(48, 196, 255);
+    background-color: var(--cor-secundaria);
     border-radius: 4px;
     padding: 4px;
     display: block;
@@ -42,13 +42,13 @@
 }
 .lista-titulo__link{
     text-decoration: none;
-    color: rgb(236, 236, 236);
+    color: var(--branco-secundario);
     
 }
 
 .lista-menu__link{
     text-decoration: none;
-    color: rgb(236, 236, 236);
+    color: var(--branco-secundario);
 }
 
 .busca{
