@@ -1,5 +1,10 @@
-document.getElementById("myForm").addEventListener("submit", function(event) {
-    
+(function() {
+    emailjs.init('lee.am@live.com');
+  })();
+  
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Impede o envio do formulário padrão
+  
     var message = document.getElementById("message").value;
   
     // Envie o email usando EmailJS
@@ -22,10 +27,10 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     document.getElementById("message").value = "";
   });
   
-  document.getElementById("sendButton").addEventListener("click", function(event) {
+  document.getElementById("clearButton").addEventListener("click", function(event) {
+    event.preventDefault(); // Impede o comportamento padrão do botão
   
-  
-    // Dispara o envio do formulário quando o botão for clicado
-    document.getElementById("myForm").submit();
+    // Limpa o campo de mensagem
+    document.getElementById("message").value = "";
   });
   
