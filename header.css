@@ -29,7 +29,7 @@
     background-color: var(--cor-secundaria);
     border-radius: 4px;
     padding: 4px;
-    display: block;
+
 
 }
 .lista-menu__item{
@@ -60,9 +60,11 @@
 
 
 @media(max-width: 750px){
-    .lista-menu__titulo,.lista-menu__item{
+  .lista-menu__item{
         display: none;
     }
+
+ 
 
     .busca{
         width: 102px;
