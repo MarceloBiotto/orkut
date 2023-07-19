@@ -1,0 +1,12 @@
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: var(--cor-principal);
+    width: 100%;
+}
+
+.lista__rodape{
+    display: flex;
+    justify-content: space-between;
+}

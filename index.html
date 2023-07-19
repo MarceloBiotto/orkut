@@ -5,123 +5,250 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
 
-  <title>Orkut</title>
-  <script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <title>Orkut</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
 
-<script type="text/javascript">
-  emailjs.init('Vv5jqgx_K3lKM8iU_')
-</script>
+    <script type="text/javascript">
+      emailjs.init("Vv5jqgx_K3lKM8iU_");
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container__banner">
+        <img src="Logo_ORKUT.svg" alt="logo Orkut" class="logo__header" />
+        <ul class="lista-menu">
+          <li class="lista-menu__titulo">
+            <a href="#" class="lista-titulo__link">Home</a>
+          </li>
 
-</head>
-<body>
-<header class="header">
-        <div class="container__banner">
-          <img
-            src="Logo_ORKUT.svg"
-            alt="logo Orkut"
-            class="logo__header"
-          />
-          <ul class="lista-menu">
-              <li class="lista-menu__titulo">
-                <a href="#" class="lista-titulo__link">Home</a>
-              </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Profile</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Scraps</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Comunidades</a>
+          </li>
+        </ul>
 
-              <li class="lista-menu__item">
-                  <a href="#" class="lista-menu__link">Profile</a>
-              </li>
-              <li class="lista-menu__item">
-                  <a href="#" class="lista-menu__link">Scraps</a>
-              </li>
-              <li class="lista-menu__item">
-                  <a href="#" class="lista-menu__link">Comunidades</a>
-              </li>
-          
-          </ul>
-  
-          <div id="search-bar" class="busca">
-            <input
-              id="search-input"
-              type="text"
-              placeholder="Digite sua busca"
-            />
-            <button id="search-button" class="pesquisa">Pesquisar</button>
-          </div>
+        <div id="search-bar" class="busca">
+          <input id="search-input" type="text" placeholder="Digite sua busca" />
+          <button id="search-button" class="pesquisa">Pesquisar</button>
         </div>
-      </header>
+      </div>
+    </header>
 
-<section class="central">
-        <section class="perfil">
-            <img src="./imagens/casal.PNG" alt="casal" class="foto__casal">
-            <ul class="status">
-              <li class="stats">Disponivel</li>
-              <li class="sexo">masculino/feminino</li>
-              <li class="pais">Brasil</li>
+    <section class="central">
+      <section class="perfil">
+        <img src="./imagens/casal.PNG" alt="casal" class="foto__casal" />
+        <ul class="status">
+          <li class="stats">Disponivel</li>
+          <li class="sexo">masculino/feminino</li>
+          <li class="pais">Brasil</li>
+        </ul>
+        <ul class="depoimento">
+          <li class="depoimento__fazer">
+            <a href="criar-depoimento.html" class="menu__depoimento"
+              ><img
+                src="./imagens/sol.png"
+                alt="sol-depoimento"
+                class="depoimento__imagem"
+              />criar depoimento</a
+            >
+          </li>
+          <li class="perfil">
+            <a href="#" class="menu__depoimento-item"
+              ><img
+                src="./imagens/perfil.PNG"
+                alt="perfil"
+                class="perfil__imagem"
+              />perfil</a
+            >
+          </li>
+          <li class="scraps">
+            <a href="#" class="menu__depoimento-item"
+              ><img
+                src="./imagens/recados.png"
+                alt="recados"
+                class="recado__imagem"
+              />scraps</a
+            >
+          </li>
+          <li class="fotos">
+            <a href="#" class="menu__depoimento-item"
+              ><img
+                src="./imagens/foto.png"
+                alt="fotos"
+                class="foto__imagem"
+              />fotos</a
+            >
+          </li>
+          <li class="videos">
+            <a href="#" class="menu__depoimento-item"
+              ><img
+                src="./imagens/video.png"
+                alt="video"
+                class="video__imagem"
+              />videos</a
+            >
+          </li>
+          <li class="depoimentos">
+            <a href="#" class="menu__depoimento-item"
+              ><img
+                src="./imagens/sol.png"
+                alt="sol-depoimento"
+                class="depoimento__imagem"
+              />depoimentos</a
+            >
+          </li>
+          <li class="atualizacoes">
+            <a href="#" class="menu__depoimento-item"
+              ><img
+                src="./imagens/atualizacoes.png"
+                alt="atualizacoes"
+                class="atualizacoes__imagem"
+              />atualizacoes</a
+            >
+          </li>
+          <li class="eventos">
+            <a href="#" class="menu__depoimento-item"
+              ><img
+                src="./imagens/calendario.png"
+                alt="calendario"
+                class="eventos__imagem"
+              />eventos</a
+            >
+          </li>
+        </ul>
+      </section>
 
-          </ul>
-          <ul class="depoimento">
-            <li class="depoimento__fazer"><a href="criar-depoimento.html" class="menu__depoimento"><img src="./imagens/sol.png" alt="sol-depoimento" class="depoimento__imagem">criar depoimento</a></li>
-            <li class="perfil"><a href="#"class="menu__depoimento-item"><img src="./imagens/perfil.PNG" alt="perfil" class="perfil__imagem">perfil</a></li>
-            <li class="scraps"><a href="#"class="menu__depoimento-item"><img src="./imagens/recados.png" alt="recados" class="recado__imagem">scraps</a></li>
-            <li class="fotos"><a href="#"class="menu__depoimento-item"><img src="./imagens/foto.png" alt="fotos" class="foto__imagem">fotos</a></li>
-            <li class="videos"><a href="#"class="menu__depoimento-item"><img src="./imagens/video.png" alt="video" class="video__imagem">videos</a></li>
-            <li class="depoimentos"><a href="#"class="menu__depoimento-item"><img src="./imagens/sol.png" alt="sol-depoimento" class="depoimento__imagem">depoimentos</a></li>
-            <li class="atualizacoes"><a href="#"class="menu__depoimento-item"><img src="./imagens/atualizacoes.png" alt="atualizacoes" class="atualizacoes__imagem">atualizacoes</a></li>
-            <li class="eventos"><a href="#"class="menu__depoimento-item"><img src="./imagens/calendario.png" alt="calendario" class="eventos__imagem">eventos</a></li>
-            
-          </ul>
+      <section class="aba-central">
+        <h1 class="titulo__aba-central">Marcelo e Ally</h1>
+        <p class="subtitulo__aba-central">Vamos comemorar nosso aniver!!</p>
+        <ul class="menu__aba-central">
+          <li class="recados__aba-central">
+            recados<img
+              src="./imagens/recados.png"
+              alt="recados"
+              class="imagens__aba-central"
+            />
+          </li>
+          <li class="fotos__aba-central">
+            fotos<img
+              src="./imagens/foto.png"
+              alt="foto"
+              class="imagens__aba-central"
+            />
+          </li>
+          <li class="fotos-casal__aba-central">
+            fotos com eles<img
+              src="./imagens/fotosComeles.png"
+              alt="foto com eles"
+              class="imagens__aba-central"
+            />
+          </li>
+          <li class="videos__aba-central">
+            videos<img
+              src="./imagens/video.png"
+              alt="video"
+              class="imagens__aba-central"
+            />
+          </li>
+          <li class="fas">
+            fas<img
+              src="./imagens/fas.png"
+              alt="fas"
+              class="imagens-stats__aba-central"
+            />
+          </li>
+          <li class="confiavel">
+            confiável<img
+              src="./imagens/confiavel.png"
+              alt="confiavel"
+              class="imagens-stats__aba-central"
+            />
+          </li>
+          <li class="legal">
+            legal<img
+              src="./imagens/legal.png"
+              alt="legal"
+              class="imagens-stats__aba-central"
+            />
+          </li>
+          <li class="sexy">
+            sexy<img
+              src="./imagens/sexy.png"
+              alt="sexy"
+              class="imagens-stats__aba-central"
+            />
+          </li>
+        </ul>
+      </section>
 
+      <section class="amigos-comunidades">
+        <h2>meus amigos</h2>
+        <ul class="amigos__lista">
+          <li class="amigo">
+            <img src="./imagens/amy.png" alt="amy" class="amigos__imagens" />Amy
+          </li>
+          <li class="amigo">
+            <img src="./imagens/dog.png" alt="dog" class="amigos__imagens" />Dog
+          </li>
+          <li class="amigo">
+            <img src="./imagens/max.png" alt="max" class="amigos__imagens" />Max
+          </li>
+        </ul>
 
-
-
-        </section>
-
-        <section class="aba-central">
-          <h1 class="titulo__aba-central">Marcelo e Ally</h1>
-          <p class="subtitulo__aba-central">Vamos comemorar nosso aniver!!</p>
-          <ul class="menu__aba-central">
-            <li class="recados__aba-central">recados<img src="./imagens/recados.png" alt="recados" class="imagens__aba-central"></li>
-            <li class="fotos__aba-central">fotos<img src="./imagens/foto.png" alt="foto" class="imagens__aba-central"></li>
-            <li class="fotos-casal__aba-central">fotos com eles<img src="./imagens/fotosComeles.png" alt="foto com eles" class="imagens__aba-central"></li>
-            <li class="videos__aba-central">videos<img src="./imagens/video.png" alt="video" class="imagens__aba-central"></li>
-            <li class="fas">fas<img src="./imagens/fas.png" alt="fas" class="imagens-stats__aba-central"></li>
-            <li class="confiavel">confiável<img src="./imagens/confiavel.png" alt="confiavel" class="imagens-stats__aba-central"></li>
-            <li class="legal">legal<img src="./imagens/legal.png" alt="legal" class="imagens-stats__aba-central"></li>
-            <li class="sexy">sexy<img src="./imagens/sexy.png" alt="sexy" class="imagens-stats__aba-central"></li>
-          </ul>
-      
-
-        </section>
-
-    
-    <section class="amigos-comunidades">
-      <h2>meus amigos</h2>
-      <ul class="amigos__lista">
-      <li class="amigo"><img src="./imagens/amy.png" alt="amy" class="amigos__imagens">Amy</li>
-      <li class="amigo"><img src="./imagens/dog.png" alt="dog" class="amigos__imagens">Dog</li>
-      <li class="amigo"><img src="./imagens/max.png" alt="max" class="amigos__imagens">Max</li>
-  
-      </ul>
-      
-      <ul class="amigos__lista">
-        <li class="amigo"><img src="./imagens/cecilia.png" alt="cecilia" class="amigos__imagens">Cecilia</li>
-        <li class="amigo"><img src="./imagens/fred.png" alt="fred" class="amigos__imagens">Fred</li>
-        <li class="amigo"><img src="./imagens/max.png" alt="max" class="amigos__imagens">Max</li>
-    
+        <ul class="amigos__lista">
+          <li class="amigo">
+            <img
+              src="./imagens/cecilia.png"
+              alt="cecilia"
+              class="amigos__imagens"
+            />Cecilia
+          </li>
+          <li class="amigo">
+            <img
+              src="./imagens/fred.png"
+              alt="fred"
+              class="amigos__imagens"
+            />Fred
+          </li>
+          <li class="amigo">
+            <img src="./imagens/max.png" alt="max" class="amigos__imagens" />Max
+          </li>
         </ul>
         <ul class="amigos__lista">
-          <li class="amigo"><img src="./imagens/amy.png" alt="amy" class="amigos__imagens">Amy</li>
-          <li class="amigo"><img src="./imagens/dog.png" alt="dog" class="amigos__imagens">Dog</li>
-          <li class="amigo"><img src="./imagens/max.png" alt="max" class="amigos__imagens">Max</li>
-      
-          </ul>
-      <h2>minhas comunidades</h2>
-      <ul class="comunidades__lista">
-        <p>Odeio acordar cedo </p>
-      </ul>
+          <li class="amigo">
+            <img src="./imagens/amy.png" alt="amy" class="amigos__imagens" />Amy
+          </li>
+          <li class="amigo">
+            <img src="./imagens/dog.png" alt="dog" class="amigos__imagens" />Dog
+          </li>
+          <li class="amigo">
+            <img src="./imagens/max.png" alt="max" class="amigos__imagens" />Max
+          </li>
+        </ul>
+        <h2>minhas comunidades</h2>
+        <ul class="comunidades__lista">
+          <p>Odeio acordar cedo</p>
+        </ul>
+      </section>
     </section>
-  </section>
- 
-  <script src="script.js"></script>
-</body>
+
+    <footer class="rodape">
+      <img src="Logo_ORKUT.svg" alt="logo orkut" class="logo__header" />
+      <ul class="rodape__itens">
+        <li class="lista__rodape">Sobre o orkut</li>
+        <li class="lista__rodape">Acesse o orkut.com</li>
+      </ul>
+      <img src="./imagens/google.png" alt="logo google" class="logo__header" />
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

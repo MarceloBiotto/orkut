@@ -13,6 +13,10 @@ document.getElementById('form')
     .then(() => {
       btn.value = 'enviando depoimento';
       alert('Sent!');
+
+      document.getElementById('depoimento').value = '';
+      document.getElementById('usuario').value = '';
+      
     }, (err) => {
       btn.value = 'Send Email';
       alert(JSON.stringify(err));
