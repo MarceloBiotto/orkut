@@ -1,12 +1,15 @@
 .perfil{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: white; 
     margin: 0 4px 0 4px;;
     border-radius: 8px;
+   height: 282px;
     
     
 }
+
+
 
 .foto__casal{
     width: 100px;
