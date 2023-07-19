@@ -16,13 +16,19 @@
 .amigo{
     text-align: center;
 }
-.amigos__imagens{
+.amigos__imagens,.comunidade__imagens{
     width: 74px;
     padding: 12px 8px;
     display: flex;
     flex-direction: column;
     
 }
+.comunidade__titulo, .amigos__titulo{
+    color: var(--preto-principal);
+    font-size: 24px;
+}
+
+
 
 @media (max-width: 750px) {
     .amigos-comunidades {
@@ -46,5 +52,12 @@
         text-align: center;
         align-items: center;
         
+    }
+    .comunidade__imagens{
+        width: 40%;
+        padding: 4px;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
     }
 }
