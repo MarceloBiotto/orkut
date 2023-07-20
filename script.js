@@ -1,22 +1,29 @@
 const btn = document.getElementById('button');
 
-document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
+document.getElementById('form').addEventListener('submit', function(event) {
+  event.preventDefault();
 
-   btn.value = 'enviando...';
+ 
+  const depoimento = document.getElementById('depoimento').value;
 
-   const serviceID = 'service_r4m5zvg';
-   const templateID = 'template_1jsonvw';
+  if (!depoimento.trim()) {
+    alert('Por favor, preencha o campo depoimento antes de enviar.');
+    return; 
+  }
 
-   emailjs.sendForm(serviceID, templateID, this)
+  btn.value = 'enviando...';
+
+  const serviceID = 'service_r4m5zvg';
+  const templateID = 'template_1jsonvw';
+
+  emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'enviando depoimento';
-      alert('Sent!');
+      alert('Depoimento enviado!');
 
       document.getElementById('depoimento').value = '';
-      document.getElementById('usuario').value = '';
-      
+      document.getElementById('from_name').value = '';
+
     }, (err) => {
       btn.value = 'Send Email';
       alert(JSON.stringify(err));

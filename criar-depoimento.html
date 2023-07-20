@@ -77,16 +77,19 @@
     
             </section>
     
-            <section class="aba-central">
-              <h1 class="titulo__aba-central" >Escreva o depoimento</h1>
+            <section class="aba-central__depoimento">
+              <h1 class="titulo__aba-central" >Criar depoimento</h1>
+              <p class="texto__depoimento">O que você tem a dizer sobre o <strong>Casal</strong> ou sobre algum deles?
+             </p>
+             <p class="texto__depoimento">Os depoimentos ficaram visíveis para qualquer pessoa que olhe o perfil deles.Os depoimentos são sujeitos a aprovação.</p>
               <form id="form">
                 <div class="field">
                   <label for="from_name">seu nome</label>
                   <input type="text" name="from_name" id="from_name">
                 </div>
                 <div class="field">
-                  <label for="message">depoimento</label>
-                  <input type="text" name="message" id="message">
+                  <label for="message">seus depoimentos</label>
+                  <input type="text" name="message" id="depoimento" class="caixa__depoimento">
                 </div>
                 <input type="submit" id="button" value="Enviar depoimento" >
               </form>
@@ -95,43 +98,34 @@
     
             </section>
     
-            <section class="amigos-comunidades">
-                <h2 class="amigos__titulo">meus amigos</h2>
-                <ul class="amigos__lista">
-                <li class="amigo"><img src="./imagens/amy.png" alt="amy" class="amigos__imagens">Amy</li>
-                <li class="amigo"><img src="./imagens/dog.png" alt="dog" class="amigos__imagens">Dog</li>
-                <li class="amigo"><img src="./imagens/max.png" alt="max" class="amigos__imagens">Max</li>
-            
-                </ul>
-                
-                <ul class="amigos__lista">
-                  <li class="amigo"><img src="./imagens/cecilia.png" alt="cecilia" class="amigos__imagens">Cecilia</li>
-                  <li class="amigo"><img src="./imagens/fred.png" alt="fred" class="amigos__imagens">Fred</li>
-                  <li class="amigo"><img src="./imagens/max.png" alt="max" class="amigos__imagens">Max</li>
-              
-                  </ul>
-                  <ul class="amigos__lista">
-                    <li class="amigo"><img src="./imagens/amy.png" alt="amy" class="amigos__imagens">Amy</li>
-                    <li class="amigo"><img src="./imagens/dog.png" alt="dog" class="amigos__imagens">Dog</li>
-                    <li class="amigo"><img src="./imagens/max.png" alt="max" class="amigos__imagens">Max</li>
-                
-                    </ul>
-          <h2 class="comunidade__titulo">minhas comunidades</h2>
-         
-            <ul class="comunidades__lista">
-              <li class="comunidade__itens"> <img src="./imagens/odeioAcordarCedo.png" alt="odeioAcordarCedo" class="comunidade__imagens">Odeio acordar cedo</li>
-             </ul>
-       
-        </section>
       </section>
       <footer class="rodape">
-        <img src="Logo_ORKUT.svg" alt="logo orkut" class="logo__header" />
-        <ul class="rodape__itens">
-          <li class="lista__rodape">Sobre o orkut</li>
-          <li class="lista__rodape">Acesse o orkut.com</li>
+     
+        <ul class="rodape__lista">
+          <img src="Logo_ORKUT.svg" alt="logo orkut" class="logo__header" />
+          <li class="lista__link">
+            <a href="#">Sobre o orkut</a>
+          </li>
+          <li class="lista__link">
+            <a href="#">Novidades</a>
+          </li>
+          <li class="lista__link">
+            <a href="#">Centro de Segurança</a>
+          </li> 
+          <li class="lista__link">
+            <a href="#">Privacidade</a>
+          </li>
+          <li class="lista__link">
+            <a href="#">Termos de uso</a>
+          </li>
+          <li class="lista__link">
+            <a href="#">Ajuda</a>
+          </li>
+          <img src="./imagens/google.png" alt="google" class="logo__header">
         </ul>
-        <img src="./imagens/google.png" alt="logo google" class="logo__header" />
       </footer>
+     
+     
       <script src="script.js"></script>
  
    

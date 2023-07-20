@@ -14,14 +14,16 @@
     --preto-principal: #000000;
 }
 .body{
-    height: 100vh;
-    width: 100%;
+   
+    background-color: var(--cor-principal);
     
     
 }
 .central{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    background-color: var(--cor-principal);
+  height: 100%;
+  width: auto;
+  display: flex;
+  background-color: var(--cor-principal);
+  margin-bottom: 20px;
+  
 }

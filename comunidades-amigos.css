@@ -26,6 +26,7 @@
 .comunidade__titulo, .amigos__titulo{
     color: var(--preto-principal);
     font-size: 24px;
+    text-align: center;
 }
 
 
