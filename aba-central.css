@@ -12,6 +12,11 @@
     font-size: 28px;
     padding: 8px;
 }
+
+.texto__depoimento{
+    padding: 2px 0px 4px 4px;
+    
+}
 .menu__aba-central{
     display: flex;
     justify-content: space-between;
