@@ -14,7 +14,8 @@
     --preto-principal: #000000;
 }
 .body{
-   
+   height: 1000px;
+   width: 1000px;
     background-color: var(--cor-principal);
     
     
