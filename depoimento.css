@@ -4,7 +4,8 @@
     background-color: white; 
     margin: 0 4px 0 4px;;
     border-radius: 8px;
-   height: 282px;
+   height: 340px;
+   width: 15%;
     
     
 }
@@ -12,7 +13,7 @@
 
 
 .foto__casal{
-    width: 100px;
+    width: 60%;
     margin: 8px 8px;
    
 }

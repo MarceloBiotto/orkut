@@ -4,7 +4,7 @@
     flex-direction: column;
     background-color: white;
     border-radius: 8px 44px 8px 8px;
-    width: 520px;
+    width: 100%;
     height: 300px;
 }
 .titulo__aba-central{
@@ -21,10 +21,10 @@
     display: flex;
     justify-content: space-between;
     gap: 4px;
-    font-size: 12px;
+    font-size: 18px;
    color:  rgb(122, 122, 121);
    text-align: center;
-   margin: 8px;
+   margin: 8px 28px;
      
     
 }
@@ -38,7 +38,7 @@ gap: 8px;
 .imagens__aba-central{
     display: flex;
     justify-content: space-between;
-    width: 16px;
+    width: 24px;
     margin-bottom: 174px;
     align-items: center;
     text-align: center;
