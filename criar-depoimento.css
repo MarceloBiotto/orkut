@@ -28,12 +28,19 @@ input[type="submit"] {
   background-color: #4460AA;
   color: #fff;
   border: none;
+ 
 }
+
 
 .caixa__depoimento {
   width: 120px;
-  height: 120px;
-  margin-bottom: 20px;
-  position: relative; /* Adicione a posição relativa para que o z-index funcione */
-  z-index: 2; /* Defina um valor de z-index maior que o padrão */
+  height: 80px;
+ 
+
+}
+
+.botao__depoimento{
+ margin:  -8px 10px;
+
+
 }
