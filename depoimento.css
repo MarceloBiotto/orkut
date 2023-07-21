@@ -110,7 +110,7 @@
 
 @media(max-width: 750px){
     .perfil{
-        width: 50%;
+        width: 30%;
         height: 70%;
     }
     .stats, .sexo{
@@ -122,5 +122,8 @@
     .depoimento__imagem, .perfil__imagem, .recado__imagem, .foto__imagem,.video__imagem,.atualizacoes__imagem,.eventos__imagem{
                width: 8px;
     }   
+    .menu__depoimento, .menu__depoimento-item {
+        font-size: 8px;
+    }
 
 }

@@ -42,25 +42,32 @@
 
 @media (max-width: 750px) {
     .amigos-comunidades {
-        width: 50%;
+        width: 40%;
         margin-left: 4px;
      
     }
 
+    .amigo {
+        text-align: center;
+        font-size: 8px;
+    }
+
     .amigos__lista {
         display: flex;
-        gap: 4px;
+        gap: 2  px;
         justify-content: center;
         text-align: center;
        align-items: center;    
 }
 
     .amigos__imagens {
-        width: 70%;
-        padding: 4px;
-        flex-direction: row;
-        text-align: center;
-        align-items: center;
+     
+            width: 50%;
+            padding: 4px;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+        
         
     }
     .comunidade__imagens{
@@ -69,5 +76,13 @@
         flex-direction: row;
         text-align: center;
         align-items: center;
+    }
+    .comunidade__titulo, .amigos__titulo {
+        font-size: 12px;
+      
+    }
+    .comunidade__itens{
+        font-size: 8px;
+    text-align: left;
     }
 }
