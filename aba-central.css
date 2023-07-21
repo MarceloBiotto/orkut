@@ -87,6 +87,11 @@ gap: 8px;
         flex-direction: column-reverse;
         flex-wrap: nowrap;
       }
+
+      .titulo__aba-central {
+        font-size: 24px;
+        padding: 8px;
+    }
       
         
         
