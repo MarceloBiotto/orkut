@@ -45,3 +45,27 @@ input[type="submit"] {
 
 
 }
+
+
+@media(max-width: 750px){
+.texto__depoimento {
+  font-size: 8px;
+  padding-left: 8px;
+}
+.titulo__aba-central {
+  font-size: 12px;
+  padding: 2px;
+}
+
+.perfil{
+  width: 30%;
+  height: 70%;
+}
+
+.depoimento__imagem, .perfil__imagem, .recado__imagem, .foto__imagem,.video__imagem,.atualizacoes__imagem,.eventos__imagem{
+  width: 6px;
+}   
+.menu__depoimento, .menu__depoimento-item {
+font-size: 8px;
+}
+}
