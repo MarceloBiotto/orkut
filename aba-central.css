@@ -4,7 +4,7 @@
     flex-direction: column;
     background-color: white;
     border-radius: 8px 44px 8px 8px;
-    width: 100%;
+    width: 700px;
     height: 300px;
 }
 .titulo__aba-central{
@@ -42,7 +42,8 @@ gap: 8px;
     margin-bottom: 174px;
     align-items: center;
     text-align: center;
-  
+   
+    
 }
 
 
@@ -70,7 +71,8 @@ gap: 8px;
         display: none;
       }
       .fas, .legal, .confiavel , .sexy{
-        width: 20%;
+        width: 10%;
+        gap: 1px;
       }
         
         

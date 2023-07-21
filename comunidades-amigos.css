@@ -22,12 +22,20 @@
     padding: 12px 8px;
     display: flex;
     flex-direction: column;
+   
     
 }
 .comunidade__titulo, .amigos__titulo{
     color: var(--preto-principal);
     font-size: 24px;
     text-align: center;
+}
+.comunidades__lista{
+   margin: 2px 4px;
+}
+.comunidade__imagens{
+    margin: 8px;
+  
 }
 
 
