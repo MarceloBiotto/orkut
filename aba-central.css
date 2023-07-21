@@ -70,10 +70,24 @@ gap: 8px;
         .recados__aba-central, .fotos__aba-central, .fotos-casal__aba-central, .videos__aba-central{
         display: none;
       }
-      .fas, .legal, .confiavel , .sexy{
+    .legal, .confiavel , .sexy, .fas{
         width: 10%;
-        gap: 1px;
+       text-align: left;
+    
+       
       }
+      .menu__aba-central{
+        display: flex;
+        justify-content: flex-start;
+        gap: 8px;
+        font-size: 8px;
+        color: rgb(122, 122, 121);
+        text-align: center;
+        margin: 8px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+      }
+      
         
         
     }
