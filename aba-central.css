@@ -5,7 +5,7 @@
     background-color: white;
     border-radius: 8px 44px 8px 8px;
     width: 700px;
-    height: 300px;
+    height: 280px;
 }
 .titulo__aba-central{
     text-align: left;
@@ -59,6 +59,31 @@ gap: 8px;
    
 }
 
+.social{
+    width: 42px;
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+    color: white;
+}
+strong{
+    color: var(--preto-principal);
+}                                    /*inicio aba de status do perfil */
+.aba-central__dados-casal{
+    padding: 8px 8px 8px 108px;
+    width: 580px;
+    background-color: white;
+    border-radius: 8px;
+   
+}
+.dados-1{
+    color: var(--cinza-principal);
+    background-color: var(--cor-terciaria);
+
+}
+.dados-2{
+    color: var(--cinza-principal);
+}
 
 
     @media(max-width: 750px){
