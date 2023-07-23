@@ -113,6 +113,38 @@ strong{
     font-size: 16px;
 }
 
+.depoimento__aba-central{   /* inicio aba depoimentos */
+    display: flex;
+    flex-direction: column;
+}
+.depoimento__aba-depoimento{
+    width: 82px;
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+    color: var(--branco-secundario);
+}
+.imagem__depoimento{
+    padding-left: 74px;
+    width: 40px;
+}
+.lista__depoimento-1{
+    padding: 8px 72px 4px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor-terciaria);
+}
+.lista__depoimento-2{
+    padding: 8px 72px 4px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: var(--cinza-principal);
+}
+
 
     @media(max-width: 750px){
         .aba-central{
@@ -157,15 +189,25 @@ strong{
         font-size: 8px;
     }
 
-    .depoimento__foto{    /*inicia a aba de depoimento */
+    .depoimento__aba-depoimento{
+        width: 42px;
+        font-size: 8px;
+    }
+    .imagem__depoimento{
         width: 20px;
     }
-    .depoimento__texto{
-        font-size: 8px;
+    .lista__depoimento-1{
+        padding-right: 50px;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        background-color: var(--cor-terciaria);
     }
-    .social__depoimentos{
-        width: 45px;
-        font-size: 8px;
+    .lista__depoimento-2{
+        padding-right: 50px;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        background-color: var(--cor-terciaria);
     }
-        
     }
