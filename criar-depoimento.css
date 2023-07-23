@@ -68,4 +68,11 @@ input[type="submit"] {
 .menu__depoimento, .menu__depoimento-item {
 font-size: 8px;
 }
+
+.field input {
+  min-width:  120px;
+}
+.nome{
+  width: 80px;
+}
 }
