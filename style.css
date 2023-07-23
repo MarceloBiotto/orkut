@@ -16,6 +16,7 @@
     --cor-terciaria: rgb(228, 246, 248);
 }
 .body{
+  min-height: 100vh;
    height: 1000px;
    width: 1000px;
     background-color: var(--cor-principal);

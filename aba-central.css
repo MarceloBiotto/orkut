@@ -64,7 +64,7 @@ gap: 8px;
     background-color: var(--cor-secundaria);
     text-align: center;
     border-radius: 6px 6px 0 0;
-    color: white;
+    color: var(--branco-secundario);
 }
 strong{
     color: var(--preto-principal);
@@ -83,6 +83,33 @@ strong{
 }
 .dados-2{
     color: var(--cinza-principal);
+}
+
+
+.depoimento__foto{    /*inicia a aba de depoimento */
+    width: 74px;
+}
+.social__depoimentos{
+    width: 84px;
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+    color: var(--branco-secundario);
+}
+.aba-central__depoimentos{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.lista-depoimentos{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.depoimento__texto{
+    font-size: 16px;
 }
 
 
@@ -124,10 +151,20 @@ strong{
     .aba-central__dados-casal {
         padding: 0;
         width: 100px;
-        background-color: white;
+        background-color:var(--branco-secundario);
         border-radius: 8px;
         font-size: 8px;
     }
-        
+
+    .depoimento__foto{    /*inicia a aba de depoimento */
+        width: 20px;
+    }
+    .depoimento__texto{
+        font-size: 8px;
+    }
+    .social__depoimentos{
+        width: 45px;
+        font-size: 8px;
+    }
         
     }
