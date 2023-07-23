@@ -27,7 +27,9 @@
 
     @media(max-width: 750px){
         .rodape__lista{
-            font-size: 8px  ;
+            font-size: 6px;
+            gap: 2px;
         }
+
 
     }
