@@ -195,6 +195,7 @@ strong{
     }
     .imagem__depoimento{
         width: 20px;
+        padding-left: 0;
     }
     .lista__depoimento-1{
         padding: 0;
