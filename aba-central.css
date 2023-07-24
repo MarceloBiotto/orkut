@@ -197,17 +197,19 @@ strong{
         width: 20px;
     }
     .lista__depoimento-1{
-        padding-right: 50px;
+        padding: 0;
         display: flex;
         justify-content: space-between;
         text-align: left;
         background-color: var(--cor-terciaria);
     }
     .lista__depoimento-2{
-        padding-right: 50px;
+       padding: 0;
         display: flex;
         justify-content: space-between;
         text-align: left;
         background-color: var(--cor-terciaria);
     }
+    
+    
     }
