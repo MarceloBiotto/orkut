@@ -17,14 +17,13 @@
 }
 .body{
   min-height: 100vh;
-   height: px;
    width: 1000px;
     background-color: var(--cor-principal);
     
     
 }
 .central{
-  height: 100%;
+  height: 100vh;
   width: auto;
   display: flex;
   background-color: var(--cor-principal);
