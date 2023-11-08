@@ -76,6 +76,11 @@ strong{
     border-radius: 8px;
    
 }
+.frase__bio{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
 .dados-1{
     color: var(--cinza-principal);
     background-color: var(--cor-terciaria);
